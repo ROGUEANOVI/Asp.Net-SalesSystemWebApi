@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SalesSystemWebApi.DAL\SalesSystemWebApi.DAL.csproj" />
+    <ProjectReference Include="..\SalesSystemWebApi.DTO\SalesSystemWebApi.DTO.csproj" />
+    <ProjectReference Include="..\SalesSystemWebApi.Entity\SalesSystemWebApi.Entity.csproj" />
+    <ProjectReference Include="..\SalesSystemWebApi.Utility\SalesSystemWebApi.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
